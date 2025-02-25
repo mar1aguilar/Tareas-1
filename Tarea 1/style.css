@@ -1,0 +1,18 @@
+/*color de bacround*/
+body {background-color:rgb(204, 161, 109);}
+
+/*color de texto*/
+p{color: blanchedalmond;}
+
+/*vincular a index con link en head*/
+/* selctor de clase con color de
+letra y tamaño de letra, segundo
+parrafo class=""*/
+.colores{color:rgb(180, 123, 0); font-size: 35px;}
+
+h1{color:rgb(0,0,0,0.5);
+    text-align:center;}
+h2{color:#FFbf80; 
+    text-align: center;}
+h3{color :hsl(88, 53%, 37%);
+    text-align:center;}
