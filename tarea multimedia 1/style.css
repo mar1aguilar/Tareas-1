@@ -1,0 +1,88 @@
+/* Estilos generales */
+body {
+    background-image: url(assets/estrellas.jpg);
+    font-family: cursive;
+    color: rgba(255, 255, 255, 0.8); /* Letras blancas al 80% */
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Utiliza toda la altura de la ventana */
+    flex-direction: column; /* Alinea todo en una columna */
+  }
+  
+  /* Encabezado */
+  header {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 100;
+    color: #685e80; /* Color vibrante, como referencia al estilo de Tim Burton */
+    text-align: center;
+    font-family:cursive;
+  }
+   h2{
+    font-size: 20;
+    color: #3772ca; /* Color vibrante, como referencia al estilo de Tim Burton */
+    text-align: center;
+
+   }
+
+   p{
+    font-size: 20;
+    color: #0371f0;
+   }
+
+   p1{
+    font-size: 20;
+    color: #000000;
+   }
+  /* Sección de las imágenes en filas verticales */
+  .imagenes {
+    display: flex;
+    flex-direction: column; /* Cambio aquí, apilar las imágenes verticalmente */
+    align-items: center; /* Centra las imágenes horizontalmente */
+    margin: 20px 0;
+    max-width: 900px; /* Ajusta el tamaño máximo del contenedor */
+    text-align: center; /* Centra el texto dentro del contenedor */
+  }
+  
+  .fila{
+    background-color: #3589aa; /* Azul cielo */
+    width: 40%; /* Ajustamos el tamaño de las columnas */
+    padding: 20px;
+    margin: 10px 0; /* Espaciado entre las filas */
+    border-radius: 8px; /* Bordes redondeados */
+  }
+  
+  .espacio-imagen {
+    background-color: #c28dcf; /* Fondo blanco para el área de la imagen */
+    height: 300px; /* Ajusta la altura del espacio donde irá la imagen */
+    margin-bottom: 10px; /* Espacio entre la imagen y el borde inferior de la columna */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra la imagen dentro del espacio */
+  }
+  
+  .espacio-imagen img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Mantiene la imagen dentro del espacio sin deformarla */
+    border-radius: 8px;
+  }
+
+  .video{
+    align-items: center;
+  }
+  
+  /* Estilo del texto */
+  section div p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  
