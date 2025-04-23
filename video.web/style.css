@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(assets/mis\ amigos.jpg);
+    background-color: #f0f0f0;
+    background-size: cover;
+    color: #333;
+}
+
+.titulo-container {
+    background-color: rgb(73, 202, 181);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 2em;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.video-column {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 960px; /* Limita el ancho para que no se extienda demasiado */
+    width: 100%; 
+}
+
+video {
+    width: 100%;
+    max-width: 900px; /* Aumentado de 600px a 900px */
+    height: auto;
+    display: block;
+}
+
+.texto-potencial {
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1em;
+}
+
+.imagen-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.imagen-container img {
+    max-width: 800px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
